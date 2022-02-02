@@ -13,7 +13,7 @@ import './Search.styles.css';
 const Search = () => {
 //Estado
 const [namePokemon, setNamePokemon] =useState("")
-const [pokemonDetalle, setPokemonDetalle] = useState({})
+// const [pokemonDetalle, setPokemonDetalle] = useState({})
 //Navigate
 const navigate = useNavigate()
 const dispatch = useDispatch()
@@ -31,7 +31,7 @@ const searchPokemon =(e) =>{
         .then(res => dispatch({type:'POKE_DETAIL', payload: res.data}))   
         navigate(`/pokedex/detail/${namePokemon}`)
 }
-console.log(pokemonDetalle);
+// console.log(pokemonDetalle);
 
   return (
     <>

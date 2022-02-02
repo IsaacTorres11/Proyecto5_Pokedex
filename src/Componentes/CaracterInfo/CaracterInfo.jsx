@@ -15,7 +15,7 @@ const CaracterInfo = ({url}) => {
     useEffect(()=>{
         axios.get(url)
             .then(res => setPokemon(res.data) )
-    },[])
+    },[url])
 
     return (
         
