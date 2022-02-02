@@ -1,0 +1,16 @@
+.formPokemon{
+    width: 40% ;
+    margin: 0 auto;
+}
+
+.formPokemon input{
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.formPokemon button{
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+

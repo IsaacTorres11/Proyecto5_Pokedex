@@ -1,0 +1,37 @@
+
+.Lista-pokemones h1{
+    color: rgb(32, 32, 184);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Lista-pokemones p{
+    color: black;
+    font-size: 15px;
+}
+
+.Lista-pokemones span{
+    color: red;
+    font-size: 15px;
+}
+
+
+.Lista-pokemones .contenedor-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+.Lista-pokemones .contenedor-pokemon li{
+    list-style: none;  
+}
+
+.Lista-pokemones .contenedor-pokemon .pokemon{
+    border: 2px solid blue;
+    margin: 10px auto;
+    width: 30%;
+    font-size: 15px;
+    padding: 3px;
+    background-color: rgb(251, 247, 1);
+}

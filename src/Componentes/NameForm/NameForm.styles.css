@@ -1,0 +1,29 @@
+.FormularioNombre{
+    border: 2px solid red;
+    width: 40%;
+    margin: 80px auto;
+    padding: 20px;
+    background: rgb(246, 7, 7);
+}
+.FormularioNombre .enviar{
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+
+
+.FormularioNombre .control{
+    background: rgb(240, 240, 70);
+    color: rgb(4, 112, 253);
+    margin: 0 8px;
+}
+
+.FormularioNombre .texto{
+    font-size: 25px;
+    text-transform:   uppercase;
+    letter-spacing: 9px; 
+    font-family: bold;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 1);
+}

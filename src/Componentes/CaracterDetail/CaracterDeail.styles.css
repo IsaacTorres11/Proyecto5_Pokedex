@@ -1,0 +1,27 @@
+.datelle-pokemon{
+
+}
+
+.datelle-pokemon span{
+    color: red;
+}
+
+.datelle-pokemon h2{
+    color: red ;
+    font-size: 20px;
+}
+
+
+.datelle-pokemon .infoPokemon{
+    background: #0D1821;
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    padding: 20px;
+
+}
+
+.datelle-pokemon .infoPokemon .namePokemon{
+    text-transform:  uppercase;
+}
+

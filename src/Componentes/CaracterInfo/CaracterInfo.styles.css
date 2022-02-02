@@ -1,0 +1,11 @@
+.enlace{
+    text-decoration: none;
+}
+
+.enlace p{
+    color: blue;
+    font-family: bold;
+    font-size: 20px;
+}
+
+
